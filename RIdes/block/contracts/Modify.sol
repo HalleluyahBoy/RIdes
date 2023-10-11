@@ -7,7 +7,7 @@
 
 pragma solidity ^0.8.0;
 
-contract RideHailingPlatform {
+contract platfo {
     address public owner;
 
     // Enum to represent the status of a ride
@@ -93,5 +93,5 @@ contract RideHailingPlatform {
         emit RideCanceled(_rideId);
     }
 
-    // Add more functions for handling additional features like rating drivers, handling disputes, etc.
+    // functions for handling additional features like rating drivers, handling disputes, etc.
 }
